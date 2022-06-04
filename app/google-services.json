@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1070072567381",
+    "project_id": "engineerlist-f61fc",
+    "storage_bucket": "engineerlist-f61fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070072567381:android:ad2a8772f637029739a6dc",
+        "android_client_info": {
+          "package_name": "com.example.engineerlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070072567381-jbdb6picjd21dbvtol4ip0qhohfohujr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFWHe6IwyWzhL7QJBV-l47dDQtlAKNR8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070072567381-jbdb6picjd21dbvtol4ip0qhohfohujr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

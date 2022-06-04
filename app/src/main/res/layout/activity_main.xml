@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_baseline_person_24"/>
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/txtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:hint="@string/address" />
+
+    <EditText
+        android:id="@+id/txtqual"
+        android:hint="@string/qualification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/txtcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contact"
+        android:layout_marginTop="560dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnbrowse"
+        android:layout_width="214dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="650dp"
+        android:text="Browse" />
+
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_width="194dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="650dp"
+        android:text="Upload" />
+</RelativeLayout>

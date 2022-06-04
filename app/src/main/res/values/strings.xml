@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EngineerList</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="qualification">Qualification</string>
+    <string name="email">Email</string>
+    <string name="contact">Contact</string>
+
+</resources>
